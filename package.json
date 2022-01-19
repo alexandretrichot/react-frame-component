@@ -1,11 +1,14 @@
 {
   "name": "ts-react-frame-component",
-  "version": "5.2.1",
+  "version": "1.0.0",
   "description": "React component to wrap your application or component in an iFrame for encapsulation purposes",
   "license": "MIT",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/alexandretrichot/react-frame-component.git"
@@ -29,7 +32,7 @@
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc -p tsconfig.cjs.json",
-    "postinstall": "yarn build"
+    "prepublish": "yarn build"
   },
   "peerDependencies": {
     "react": ">= 16.3",
