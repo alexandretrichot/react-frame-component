@@ -1,7 +1,7 @@
-test/processed
-node_modules
-lib/
-npm-debug.log
-test-results.xml
-*-debug.log*
-dist
+/node_modules
+/dist
+
+/example/node_modules
+/example/dist
+
+.DS_Store

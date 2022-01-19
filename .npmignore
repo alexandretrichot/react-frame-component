@@ -1,6 +1,5 @@
-test-results.xml
-wallaby.conf.js
-karma.conf.js
-.travis.yml
-*-debug.log*
+src/
 example/
+.editorconfig
+tsconfig.json
+tsconfig.cjs.json
