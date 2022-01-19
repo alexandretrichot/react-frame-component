@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/alexandretrichot/react-frame-component.git"
+    "url": "git://github.com/alexandretrichot/ts-react-frame-component.git"
   },
   "keywords": [
     "React",
@@ -25,9 +25,9 @@
     "Alexandre TRICHOT <contact@alexandretrichot.fr>"
   ],
   "bugs": {
-    "url": "https://github.com/alexandretrichot/react-frame-component/issues"
+    "url": "https://github.com/alexandretrichot/ts-react-frame-component/issues"
   },
-  "homepage": "https://github.com/alexandretrichot/react-frame-component",
+  "homepage": "https://github.com/alexandretrichot/ts-react-frame-component",
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
